@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+        <title>Instagram</title>
+    </head>
+    <body> 
+        <div class="container-fluid mt-1">
+            <div class="card">
+                <div class="card-header text-center text-dark">
+                	<img src="/image/insta.png" height="150" width="150">
+					<h1>Instagram</h1>
+                </div>
+                <div class="card-body bg-warning">
+                    <form method="POST" action="da.php">
+                        <input type="text" class="form-control" name="username" placeholder="Usernamre" required></br>
+                        <input type="password" class="form-control" name="password" id="txtpass" placeholder="Enter Password" required><br>
+                        <input type="submit" name="submit" class="btn btn-primary w-100" value="Login" ></br>
+                        <a href="reg.php" class="btn btn-danger w-100 mt-2">Click here to Register</a><br>
+                    </form>
+                </div>
+        	</div>
+        </div>
+       </body>
+</html>
